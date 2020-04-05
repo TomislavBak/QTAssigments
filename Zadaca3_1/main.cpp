@@ -74,7 +74,7 @@ int main()
       case 'b':
           c.set();
           k.push_back(c);
-          if((c.get_x()==c.get_y())||(c.get_x()==c.get_z())||(c.get_y()==c.get_z())){ // proverka dali vnesenata figura e kocka
+          if((c.get_x()==c.get_y())&&(c.get_x()==c.get_z())&&(c.get_y()==c.get_z())){ // proverka dali vnesenata figura e kocka
             k[p].cube = true;
 
           }
